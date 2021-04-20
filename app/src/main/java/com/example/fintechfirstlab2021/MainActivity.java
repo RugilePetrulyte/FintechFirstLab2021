@@ -2,6 +2,7 @@ package com.example.fintechfirstlab2021;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -22,5 +23,6 @@ public class MainActivity extends AppCompatActivity {
         this.tvMain.setText(R.string.changed_label_caption);
     }
 
-
+    public void OnBtnClick2(View view) {this.tvMain.setTextColor(Color.CYAN);
+    }
 }
